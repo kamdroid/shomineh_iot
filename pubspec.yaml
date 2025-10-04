@@ -1,0 +1,56 @@
+name: shomineh
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  shared_preferences: ^2.5.2
+  provider: ^6.0.1
+  url_launcher: ^6.3.1
+
+  flutter_svg: ^2.0.17
+
+  get_it: ^8.0.3
+
+  flutter_colorpicker: ^1.1.0
+
+  flutter_blue_plus: ^1.35.3
+
+  permission_handler: ^11.4.0
+
+  location: ^8.0.0
+
+  syncfusion_flutter_sliders: ^29.2.4
+  syncfusion_flutter_core: ^29.2.4
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/raw/
+
+  fonts:
+    - family: yekan
+      fonts:
+        - asset: assets/fonts/BYekan.ttf
+        - asset: assets/fonts/BYekanـBold.ttf
+          weight: 700
